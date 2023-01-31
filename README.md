@@ -3,11 +3,6 @@
 ### 介绍
 * vue2-license-plate是一款基于vue的车牌号输入控件。
 
-### 示例
-[gitHub](https://windy-boy.github.io/vue-car-number-demo)
-
-[gitee](http://chenjiancong.gitee.io/vue-car-number-demo)
-
 ### 项目中使用
 * 下载
 
