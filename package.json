@@ -1,0 +1,60 @@
+{
+  "name": "vue2-license-plate",
+  "version": "1.0.0",
+  "private": false,
+  "description": "一款基于vue的车牌号输入控件",
+  "main": "lib/licensePlate.umd.min.js",
+  "license": "MIT",
+  "keywords": [
+    "car",
+    "车牌号",
+    "license plate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leiyun1993/vue2-license-plate"
+  },
+  "homepage": "https://github.com/leiyun1993/vue2-license-plate#readme",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name licensePlate --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue2-license-plate": "^1.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.0",
+    "@vue/cli-plugin-eslint": "^4.5.0",
+    "@vue/cli-service": "^4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.12.2",
+    "less-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-undef": 0
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
