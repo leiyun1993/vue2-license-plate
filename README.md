@@ -1,18 +1,18 @@
-# vue2-license-plate
+# vue-license-plate
 
 ### 介绍
-* vue2-license-plate是一款基于vue的车牌号输入控件。
+* vue-license-plate是一款基于vue的车牌号输入控件。
 
 ### 项目中使用
 * 下载
 
 ```
-npm install vue2-license-plate
+npm install vue-license-plate
 ```
 * 在main.js中加入
 
 ```
-import LicensePlate from 'vue2-license-plate'
+import LicensePlate from 'vue-license-plate'
 import 'vue2-license-plate/lib/licensePlate.css'
 Vue.use(LicensePlate);
 ```
@@ -51,6 +51,13 @@ fontSize|Number|16| 文字大小
 
 
 ## Change Log
+* 1.0.2
+
+替换资源文件为icon
+
+* 1.0.1
+
+修复bug
 
 * 1.0.0
 
