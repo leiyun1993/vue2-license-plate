@@ -54,6 +54,9 @@ fontSize|Number|16| 文字大小
 
 
 ## Change Log
+* 1.0.3
+修复文档错误
+
 * 1.0.2
 
 替换资源文件为icon
