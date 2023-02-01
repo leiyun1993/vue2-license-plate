@@ -1,7 +1,10 @@
 # vue-license-plate
 
 ### 介绍
-* vue-license-plate是一款基于vue的车牌号输入控件。
+* vue-license-plate是一款基于vue2的车牌号输入控件。
+
+### vue3版本
+[vue3-license-plate](https://github.com/leiyun1993/vue3-license-plate)
 
 ### 项目中使用
 * 下载
@@ -13,7 +16,7 @@ npm install vue-license-plate
 
 ```
 import LicensePlate from 'vue-license-plate'
-import 'vue2-license-plate/lib/licensePlate.css'
+import 'vue-license-plate/lib/licensePlate.css'
 Vue.use(LicensePlate);
 ```
 * 在需要的页面中使用
