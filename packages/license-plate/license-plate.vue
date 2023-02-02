@@ -78,6 +78,11 @@ export default {
   name: "LicensePlate",
   props: {
     value: String,
+    //是否自动显示
+    autoShow:{
+      type: Boolean,
+      default: false
+    },
     // 输入框边框颜色
     borderColor: {
       type: String,
@@ -138,6 +143,10 @@ export default {
   async created () { },
   async mounted () {
     this.initLicensePlate();
+    if(this.autoShow){
+      this.activeIndex=0;
+      this.visible = true;
+    }
   },
   methods: {
     initLicensePlate () {

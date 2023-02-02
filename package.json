@@ -1,6 +1,6 @@
 {
   "name": "vue-license-plate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "一款基于vue的车牌号输入控件",
   "main": "lib/licensePlate.umd.min.js",
@@ -24,7 +24,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "vue-license-plate": "^1.0.2"
+    "vue-license-plate": "^1.0.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.0",

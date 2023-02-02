@@ -5,6 +5,8 @@
 
 ### vue3版本
 [vue3-license-plate](https://github.com/leiyun1993/vue3-license-plate)
+### 微信小程序版本
+[mp-license-plate](https://github.com/leiyun1993/mp-license-plate)
 
 ### 项目中使用
 * 下载
@@ -33,6 +35,7 @@ change(val){
 }
 ```
 * 展示如下
+
 ![](https://github.com/leiyun1993/vue2-license-plate/raw/master/screenshot/s1.png)
 
 ## API
@@ -40,6 +43,8 @@ change(val){
 ### Props
 名字|类型|默认值|说明
 --|--|--|--
+v-model|String|""| 默认车牌号
+autoShow|Boolean|false| 自动展示键盘
 borderColor|String|#79aef3| 输入框边框颜色
 borderActiveColor|String|#330aec| 输入框选中的边框颜色
 borderWidth|Number|1| 边框宽度
@@ -54,7 +59,12 @@ fontSize|Number|16| 文字大小
 
 
 ## Change Log
+* 1.0.4
+
+自动展示键盘
+
 * 1.0.3
+
 修复文档错误
 
 * 1.0.2

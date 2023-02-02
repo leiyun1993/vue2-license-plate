@@ -3,7 +3,8 @@
     <div style="height:100px; width: 100%;"></div>
     <LicensePlate :borderRadius="6"
                   @change="changeVal"
-                  v-model="licensePlate"></LicensePlate>
+                  v-model="licensePlate"
+                  :autoShow="false"></LicensePlate>
     <div style="height:100px; width: 100%;"></div>
     <!-- <LicensePlate :borderRadius="4"
                   @change="changeVal"
