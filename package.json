@@ -1,6 +1,6 @@
 {
   "name": "vue-license-plate",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "description": "一款基于vue的车牌号输入控件",
   "main": "lib/licensePlate.umd.min.js",

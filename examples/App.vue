@@ -4,8 +4,15 @@
     <LicensePlate :borderRadius="6"
                   @change="changeVal"
                   v-model="licensePlate"
-                  :autoShow="false"></LicensePlate>
+                  :autoShow="false">
+                </LicensePlate>
     <div style="height:100px; width: 100%;"></div>
+    <LicensePlate :borderRadius="6"
+                  @change="changeVal"
+                  v-model="licensePlate"
+                  :autoShow="false">
+                <div class="custom">{{ licensePlate }}</div>
+                </LicensePlate>
     <!-- <LicensePlate :borderRadius="4"
                   @change="changeVal"
                   v-model="licensePlate"
@@ -24,7 +31,7 @@ export default {
   },
   data () {
     return {
-      licensePlate: ""
+      licensePlate: "川A12345"
     }
   },
   computed: {
@@ -62,5 +69,10 @@ export default {
   text-align: center;
   margin-right: 10px;
   border: 1px solid #959595;
+}
+.custom{
+  border: 1px solid #333;
+  height: 40px;
+  line-height: 40px;
 }
 </style>
